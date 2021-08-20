@@ -1,0 +1,163 @@
+.login-container {
+	max-width: 1440px;
+	height: 100vh;
+
+	background: linear-gradient(
+			116.64deg,
+			rgba(0, 0, 0, 0.8) 0.46%,
+			rgba(0, 0, 0, 0) 100%
+		),
+		url('./netflix.jpg') no-repeat;
+
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 768px) {
+	.login-container {
+		display: none;
+	}
+}
+
+.app-logo {
+	position: absolute;
+	width: 180px;
+	height: 52px;
+	left: 50px;
+	top: 48px;
+	background-blend-mode: multiply;
+}
+
+.login-form-container {
+	width: 456px;
+	height: 440px;
+
+	background: #0c0b10;
+	opacity: 0.8;
+	border-radius: 8px;
+
+	padding: 64px 48px;
+}
+
+.form-heading {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 40px;
+	color: #ffffff;
+	text-align: center;
+
+	margin-bottom: 32px;
+}
+
+.input-container {
+	width: 360px;
+	height: 64px;
+
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 24px;
+}
+
+.input-container label {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 16px;
+	/* identical to box height, or 133% */
+
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+
+	margin-bottom: 8px;
+}
+
+.input-container .input {
+	height: 40px;
+
+	background: #333333;
+	border-radius: 2px;
+}
+
+.input input {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 3px;
+
+	border: none;
+
+	color: rgba(167, 177, 189, 0.6);
+	margin: 8px 16px;
+	background: transparent;
+	outline: none;
+}
+
+.Sign-in-button {
+	margin: 48px auto;
+	display: block;
+	padding: 8px 20px;
+
+	height: 40px;
+
+	color: #ffffff;
+
+	background: #e50914;
+	border-radius: 4px;
+
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	/* font-weight: bold; */
+	font-size: 14px;
+	/* line-height: 24px; */
+
+	border: none;
+
+	cursor: pointer;
+}
+
+/* Mobile view */
+
+.login-mobile-container {
+	width: 100vw;
+	height: 100vh;
+	background: #0c0b10;
+	/* position: relative; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (min-width: 768px) {
+	.login-mobile-container {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.app-logo {
+		position: absolute;
+		position: absolute;
+		left: 8.89%;
+		right: 63.33%;
+		top: 5%;
+		bottom: 90.78%;
+	}
+
+	.form-heading {
+		text-align: start;
+	}
+	.Sign-in-button {
+		width: 100%;
+	}
+}

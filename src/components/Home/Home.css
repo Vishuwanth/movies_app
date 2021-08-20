@@ -1,0 +1,84 @@
+.home-container {
+	max-width: 100%;
+	height: 100vh;
+}
+
+.banner-container {
+	width: 100%;
+	height: 605px;
+
+	background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0) 0%,
+			rgba(24, 24, 24, 0.546875) 38.26%,
+			#181818 92.82%,
+			#181818 98.68%,
+			#181818 108.61%
+		),
+		url('./banner.png') no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.banner-content {
+	/* height: 344px;
+	width: auto; */
+	width: 444px;
+	position: absolute;
+	left: 165px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.banner-title {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 62px;
+	/* identical to box height, or 97% */
+
+	/* General/White */
+
+	color: #ffffff;
+	margin-bottom: 24px;
+}
+
+.banner-description {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+
+	color: #ffffff;
+	margin-bottom: 32px;
+}
+
+.banner-button {
+	/* width: 77px;
+	height: 48px; */
+	border-radius: 4px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	/* identical to box height, or 171% */
+
+	/* General/Dark blue */
+
+	color: #171f46;
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	padding: 12px 24px;
+	background: #ffffff;
+
+	cursor: pointer;
+	border: none;
+}
