@@ -1,5 +1,5 @@
 .login-container {
-	max-width: 1440px;
+	width: 100vw;
 	height: 100vh;
 
 	background: linear-gradient(
@@ -10,7 +10,7 @@
 		url('./netflix.jpg') no-repeat;
 
 	/* background-repeat: no-repeat; */
-	/* background-size: cover; */
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
